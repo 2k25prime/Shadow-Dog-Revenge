@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Back-to-game1 {
+  background-color: blue;
+  color: black;
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.Back-to-game2 {
+  display: none;
+  position:absolute;
+  background-color: lightblue;
+  min-width: 150px;
+}
+
+.Back-to-game2 a{
+  color: black;
+  padding: 11px 15px;
+  text-decoration: none;
+  display: block;
+}
+.Back-to-game2 a:hover{
+  background-color: antiquewhite;
+}
+
+.Back-to-game:hover .Back-to-game2 {
+ display:block;
+}
+
+.Back-to-game:hover.Back-to-game1{
+ background-color:grey
+}
+.Difficulty1 {
+  background-color: blue;
+  color: white;
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.Difficulty2{
+   display: none;
+  position:absolute;
+  background-color: lightblue;
+  min-width: 150px;
+
+}
+
+.Difficulty2 a{
+  color: black;
+  padding: 11px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.Difficulty2 a:hover{
+   background-color: antiquewhite;
+}
+
+.Difficulty:hover .Difficulty2 {
+  display:block;
+}
+
+.Difficulty:hover.Difficulty1{
+  background-color:grey
+}
+#canvas1 {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#player, #layer1, #layer2, #layer3, #layer4, #layer5, #enemy_fly, #enemy_plant, #enemy_spider, #enemy_ghost_2, #fire, #collisionAnimation, #lives, #heart, #Creepster, #ghost{
+    display: none;
+}

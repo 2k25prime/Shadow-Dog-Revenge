@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <h1 id="title">Support us</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </head>
+  <body>
+    <div>
+      <form id="survey-form">
+        <fieldset>
+          <legend>Introduce yourself</legend>
+          <label id="name-label">Name
+            <input id="name" type="text" placeholder="Harry" required>
+          </label>
+          <label id="email-label">Email
+            <input id="email" type="email" placeholder="onlineservices@gmail.com" required>
+          </label>
+          <label id="number-label">Age (optional)
+            <input id="number" type="number" min="10" max="50" placeholder="Write age here" required>
+          </label>
+        </fieldset>
+        <hr>
+        <fieldset>
+          <legend>Feedback</legend>
+          
+          <label for="positive negative">Would you recommend us?
+            <input id="positive" type="radio" name="advice">Yes
+            <input id="negative" type="radio" name="advice">No<br></br>
+
+            <label for="yes no">Do we need to improve?
+              <input id="yes" type="radio" name="advice">Yes
+              <input id="no" type="radio" name="advice">No<br></br>
+          </label>
+
+          <label for="more less">How can we improve?
+            <input id="more" name="more" value="increase" type="checkbox">More content
+            <input id="less" name="less" value="decrease" type="checkbox">Less content <br>
+          </label>
+        </fieldset>
+        <hr>
+        <fieldset>
+          <legend>We are listening!</legend>
+          <label for="comments">Comments: <textarea id="comments" name="comments" rows="2" cols="34" placeholder="Type comments here"></textarea>
+          </label>
+          <button>
+            <form method="post" action="mailto:obieanidavid20@gmail.com  " > <input type="Submit" value="Submit" /> </form>
+          </button>
+        </br>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>   
