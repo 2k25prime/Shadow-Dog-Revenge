@@ -2,7 +2,7 @@ import { Player } from './player.js';
 import { InputHandler } from './input.js';
 import { Background } from './background.js';
 import { FlyingEnemy, ClimbingEnemy, GroundEnemy} from './enemies.js';
-import { UI } from './UI.JS';
+import { UI } from './UI.js';
 import { Refillife } from './refill.js';
 
 
